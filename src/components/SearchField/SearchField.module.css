@@ -1,0 +1,32 @@
+.searchField {
+  color: #f3f6f81a !important;
+}
+
+.searchWidth {
+  width: 238px;
+}
+
+.filterWidth {
+  width: 150px;
+}
+
+.button {
+  width: 20px !important;
+  height: 20px;
+  color: #f3f6f8e5;
+  background-color: #1c1d1e;
+  margin-left: 2px;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchField:hover {
+  cursor: pointer;
+}

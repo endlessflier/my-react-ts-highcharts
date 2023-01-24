@@ -1,0 +1,22 @@
+.statContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 21px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(243, 246, 248, 0.1);
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.value {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}

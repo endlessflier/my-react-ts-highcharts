@@ -1,0 +1,68 @@
+.validaorContainer {
+  display: flex;
+  gap: 109px;
+}
+
+.contentContainer {
+  flex: 1;
+}
+
+.statContent {
+  display: flex;
+  flex-direction: column;
+  width: 252px;
+  border-radius: 8px;
+  border: 1px solid #f3f6f81a;
+  padding: 50px 42px;
+  gap: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-top: 8px;
+  gap: 30px;
+}
+
+.title {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: rgba(243, 246, 248, 0.95);
+}
+
+.tableContainer {
+  margin-top: 25px;
+  border-radius: 8px;
+}
+
+.table > thead > tr > th {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #1c1d1e;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: none;
+  padding: 9px 16px;
+}
+
+.table > tbody > tr {
+  background-color: #1c1d1e;
+}
+
+.table > tbody > tr > td {
+  height: 44px;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(243, 246, 248, 0.95);
+  border-bottom: none;
+  padding: 0 16px;
+  margin-bottom: 5px;
+}

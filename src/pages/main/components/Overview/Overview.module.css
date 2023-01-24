@@ -1,0 +1,109 @@
+.overview {
+  flex: 1;
+  position: relative;
+}
+
+.chartBlock {
+  display: flex;
+  gap: 37px;
+  margin-top: 70px;
+}
+
+.oneView {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.pieChartContainer {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  gap: 35px;
+  background: rgba(243, 246, 248, 0.03);
+  border-radius: 8px;
+}
+
+.chainsTable {
+  flex: 1 !important;
+  margin: 98px 0 !important;
+}
+
+.chainsTable > thead > tr > th {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: none;
+  padding: 0px 8px;
+}
+
+.chainsTable > tbody > tr > td {
+  height: 52px;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #d6d6d6;
+  border-bottom: none;
+  padding: 0 8px;
+  margin-bottom: 5px;
+}
+
+.statContent {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 8px;
+  gap: 30px;
+}
+
+.tableContainer {
+  margin-top: 36px;
+}
+
+.table > thead > tr > th {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: none;
+  padding: 9px 16px;
+}
+
+.table > tbody > tr {
+  background-color: #1c1d1e;
+}
+
+.table > tbody > tr > td {
+  height: 52px;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(243, 246, 248, 0.95);
+  border-bottom: none;
+  padding: 0 16px;
+  margin-bottom: 5px;
+}
+
+.emptyRow {
+  background-color: transparent !important;
+}
+
+.emptyRow > td {
+  height: 5px !important;
+}
+
+.nameWrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

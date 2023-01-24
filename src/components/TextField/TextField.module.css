@@ -1,0 +1,45 @@
+.textFieldInput {
+  height: 32px;
+  border-radius: 8px;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow-wrap: break-word;
+  margin-top: 25px !important;
+  background-color: white;
+  border: 1px solid white;
+  padding: 6px;
+}
+.textFieldInput:before {
+  border-bottom: none !important;
+}
+.textFieldInput:after {
+  border-bottom: none !important;
+}
+.textFieldInputHiddenLabel {
+  margin-top: 0px !important;
+}
+.textFieldBaseInput {
+  font-family: Inter !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+  letter-spacing: 0.15px !important;
+  color: rgba(243, 246, 248, 0.5) !important;
+}
+.textFieldInputFocus {
+  border: 1px solid white;
+}
+.textFieldInputSearch {
+  margin-top: 0px !important;
+}
+.textFieldDark {
+  background-color: transparent;
+  border: 1px solid #f3f6f81a;
+}
+.textFieldError {
+  border: 1px solid red;
+}
+.textFieldError:focus {
+  border: 1px solid red;
+}
